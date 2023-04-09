@@ -1,0 +1,39 @@
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .posts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
